@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin: 2rem;  
+}
+
+form {
+    padding: 3%;
+    background-color: #BBBBBB;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input {
+    padding: 0.25em 0.6em;
+    border-radius: 0.3rem;
+    border: 1px solid #d3d6e4;
+    text-align: center;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+    width: 40%;
+    height: 30px;
+    color: black;
+}
+
+input::placeholder {
+    color: #BBBBBB;
+}
+
+#boton {
+    width: 15%;
+    border: none;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #3498db;
+    padding: 10px 20px 10px 20px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+#tabla {
+    background-color: #BBBBBB;
+    border-collapse: collapse;
+    margin: 15px auto;
+    width: 50%;
+ 
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+
