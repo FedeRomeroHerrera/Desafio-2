@@ -9,12 +9,12 @@
     <title>Arrays</title>
 </head>
 <body>
-    <h1>NOTAS ALUMNOS</h1>
+    <h1>ALMACEN ROBERTO</h1>
     <div class="container1">
         <form>
-            <input id="nombre" type="text"  placeholder="Ingresa nombre"> 
+            <input id="producto" type="text"  placeholder="Ingresa producto"> 
             
-            <input id="nota" type="text" placeholder=" Ingresa nota">
+            <input id="cantidad" type="text" placeholder=" Ingresa Cantidad">
             
         </form>
         <button id="boton" type="reset" onclick="capturar();">Agregar</button>
@@ -22,12 +22,25 @@
     <div class="container2">
         <table id="tabla">
             <thead>
-                    <th>ALUMNO</th>
-                    <th>NOTA</th>
-            </thead>          
-
+                <th>PRODUCTO</th>
+                <th>CANTIDAD</th>
+                <th>SUBTOTAL</th>
+            </thead> 
+            <tfoot>
+                <th id="total">TOTAL</th>
+                <td></td>
+                <td></td>
         </table>
     </div>
+<section class="lista">
+    <ul>
+        <li>Arroz $200.-</li>
+        <li>Pan$150.-</li>
+        <li>Harina $100.-</li>
+
+    </ul>
+</section>
     <script src="script.js"></script>
 </body>
 </html>
+
